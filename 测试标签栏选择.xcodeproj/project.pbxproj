@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1DCAD4111D3E300F0020CD4C /* DLLRUCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DCAD4021D3E300F0020CD4C /* DLLRUCache.m */; };
+		1DCAD4121D3E300F0020CD4C /* DLCustomSlideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DCAD4041D3E300F0020CD4C /* DLCustomSlideView.m */; };
+		1DCAD4131D3E300F0020CD4C /* DLSlideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DCAD4061D3E300F0020CD4C /* DLSlideView.m */; };
+		1DCAD4141D3E300F0020CD4C /* DLFixedTabbarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DCAD4091D3E300F0020CD4C /* DLFixedTabbarView.m */; };
+		1DCAD4151D3E300F0020CD4C /* DLScrollTabbarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DCAD40B1D3E300F0020CD4C /* DLScrollTabbarView.m */; };
+		1DCAD4161D3E300F0020CD4C /* DLTabedSlideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DCAD40E1D3E300F0020CD4C /* DLTabedSlideView.m */; };
+		1DCAD4171D3E300F0020CD4C /* DLUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DCAD4101D3E300F0020CD4C /* DLUtility.m */; };
 		1DF71D701D2CEE02002097DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF71D6F1D2CEE02002097DC /* main.m */; };
 		1DF71D731D2CEE02002097DC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF71D721D2CEE02002097DC /* AppDelegate.m */; };
 		1DF71D761D2CEE02002097DC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF71D751D2CEE02002097DC /* ViewController.m */; };
@@ -15,6 +22,8 @@
 		1DF71D7E1D2CEE02002097DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DF71D7C1D2CEE02002097DC /* LaunchScreen.storyboard */; };
 		1DF71D891D2CEE02002097DC /* _______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF71D881D2CEE02002097DC /* _______Tests.m */; };
 		1DF71D941D2CEE02002097DC /* _______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF71D931D2CEE02002097DC /* _______UITests.m */; };
+		1DF71DC31D2CF32C002097DC /* SMExpertListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF71DC21D2CF32C002097DC /* SMExpertListViewController.m */; };
+		1DF71DE01D2CF3B2002097DC /* NSString+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF71DDF1D2CF3B2002097DC /* NSString+Size.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +44,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1DCAD4001D3E300F0020CD4C /* DLCacheProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLCacheProtocol.h; sourceTree = "<group>"; };
+		1DCAD4011D3E300F0020CD4C /* DLLRUCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLLRUCache.h; sourceTree = "<group>"; };
+		1DCAD4021D3E300F0020CD4C /* DLLRUCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLLRUCache.m; sourceTree = "<group>"; };
+		1DCAD4031D3E300F0020CD4C /* DLCustomSlideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLCustomSlideView.h; sourceTree = "<group>"; };
+		1DCAD4041D3E300F0020CD4C /* DLCustomSlideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLCustomSlideView.m; sourceTree = "<group>"; };
+		1DCAD4051D3E300F0020CD4C /* DLSlideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLSlideView.h; sourceTree = "<group>"; };
+		1DCAD4061D3E300F0020CD4C /* DLSlideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLSlideView.m; sourceTree = "<group>"; };
+		1DCAD4081D3E300F0020CD4C /* DLFixedTabbarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLFixedTabbarView.h; sourceTree = "<group>"; };
+		1DCAD4091D3E300F0020CD4C /* DLFixedTabbarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLFixedTabbarView.m; sourceTree = "<group>"; };
+		1DCAD40A1D3E300F0020CD4C /* DLScrollTabbarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLScrollTabbarView.h; sourceTree = "<group>"; };
+		1DCAD40B1D3E300F0020CD4C /* DLScrollTabbarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLScrollTabbarView.m; sourceTree = "<group>"; };
+		1DCAD40C1D3E300F0020CD4C /* DLSlideTabbarProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLSlideTabbarProtocol.h; sourceTree = "<group>"; };
+		1DCAD40D1D3E300F0020CD4C /* DLTabedSlideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLTabedSlideView.h; sourceTree = "<group>"; };
+		1DCAD40E1D3E300F0020CD4C /* DLTabedSlideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLTabedSlideView.m; sourceTree = "<group>"; };
+		1DCAD40F1D3E300F0020CD4C /* DLUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLUtility.h; sourceTree = "<group>"; };
+		1DCAD4101D3E300F0020CD4C /* DLUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLUtility.m; sourceTree = "<group>"; };
 		1DF71D6B1D2CEE02002097DC /* 测试标签栏选择.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "测试标签栏选择.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF71D6F1D2CEE02002097DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1DF71D711D2CEE02002097DC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +76,10 @@
 		1DF71D8F1D2CEE02002097DC /* 测试标签栏选择UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "测试标签栏选择UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF71D931D2CEE02002097DC /* _______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_______UITests.m"; sourceTree = "<group>"; };
 		1DF71D951D2CEE02002097DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DF71DC11D2CF32C002097DC /* SMExpertListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMExpertListViewController.h; sourceTree = "<group>"; };
+		1DF71DC21D2CF32C002097DC /* SMExpertListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMExpertListViewController.m; sourceTree = "<group>"; };
+		1DF71DDE1D2CF3B2002097DC /* NSString+Size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Size.h"; sourceTree = "<group>"; };
+		1DF71DDF1D2CF3B2002097DC /* NSString+Size.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Size.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +107,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1DCAD3FE1D3E300F0020CD4C /* DLSlideView */ = {
+			isa = PBXGroup;
+			children = (
+				1DCAD3FF1D3E300F0020CD4C /* DLCache */,
+				1DCAD4031D3E300F0020CD4C /* DLCustomSlideView.h */,
+				1DCAD4041D3E300F0020CD4C /* DLCustomSlideView.m */,
+				1DCAD4051D3E300F0020CD4C /* DLSlideView.h */,
+				1DCAD4061D3E300F0020CD4C /* DLSlideView.m */,
+				1DCAD4071D3E300F0020CD4C /* DLTabbarView */,
+				1DCAD40D1D3E300F0020CD4C /* DLTabedSlideView.h */,
+				1DCAD40E1D3E300F0020CD4C /* DLTabedSlideView.m */,
+				1DCAD40F1D3E300F0020CD4C /* DLUtility.h */,
+				1DCAD4101D3E300F0020CD4C /* DLUtility.m */,
+			);
+			path = DLSlideView;
+			sourceTree = "<group>";
+		};
+		1DCAD3FF1D3E300F0020CD4C /* DLCache */ = {
+			isa = PBXGroup;
+			children = (
+				1DCAD4001D3E300F0020CD4C /* DLCacheProtocol.h */,
+				1DCAD4011D3E300F0020CD4C /* DLLRUCache.h */,
+				1DCAD4021D3E300F0020CD4C /* DLLRUCache.m */,
+			);
+			path = DLCache;
+			sourceTree = "<group>";
+		};
+		1DCAD4071D3E300F0020CD4C /* DLTabbarView */ = {
+			isa = PBXGroup;
+			children = (
+				1DCAD4081D3E300F0020CD4C /* DLFixedTabbarView.h */,
+				1DCAD4091D3E300F0020CD4C /* DLFixedTabbarView.m */,
+				1DCAD40A1D3E300F0020CD4C /* DLScrollTabbarView.h */,
+				1DCAD40B1D3E300F0020CD4C /* DLScrollTabbarView.m */,
+				1DCAD40C1D3E300F0020CD4C /* DLSlideTabbarProtocol.h */,
+			);
+			path = DLTabbarView;
+			sourceTree = "<group>";
+		};
 		1DF71D621D2CEE02002097DC = {
 			isa = PBXGroup;
 			children = (
@@ -101,10 +169,15 @@
 		1DF71D6D1D2CEE02002097DC /* 测试标签栏选择 */ = {
 			isa = PBXGroup;
 			children = (
+				1DCAD3FE1D3E300F0020CD4C /* DLSlideView */,
 				1DF71D711D2CEE02002097DC /* AppDelegate.h */,
 				1DF71D721D2CEE02002097DC /* AppDelegate.m */,
 				1DF71D741D2CEE02002097DC /* ViewController.h */,
 				1DF71D751D2CEE02002097DC /* ViewController.m */,
+				1DF71DC11D2CF32C002097DC /* SMExpertListViewController.h */,
+				1DF71DC21D2CF32C002097DC /* SMExpertListViewController.m */,
+				1DF71DDE1D2CF3B2002097DC /* NSString+Size.h */,
+				1DF71DDF1D2CF3B2002097DC /* NSString+Size.m */,
 				1DF71D771D2CEE02002097DC /* Main.storyboard */,
 				1DF71D7A1D2CEE02002097DC /* Assets.xcassets */,
 				1DF71D7C1D2CEE02002097DC /* LaunchScreen.storyboard */,
@@ -271,6 +344,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				1DF71D761D2CEE02002097DC /* ViewController.m in Sources */,
+				1DF71DE01D2CF3B2002097DC /* NSString+Size.m in Sources */,
+				1DCAD4171D3E300F0020CD4C /* DLUtility.m in Sources */,
+				1DCAD4111D3E300F0020CD4C /* DLLRUCache.m in Sources */,
+				1DCAD4141D3E300F0020CD4C /* DLFixedTabbarView.m in Sources */,
+				1DCAD4161D3E300F0020CD4C /* DLTabedSlideView.m in Sources */,
+				1DF71DC31D2CF32C002097DC /* SMExpertListViewController.m in Sources */,
+				1DCAD4151D3E300F0020CD4C /* DLScrollTabbarView.m in Sources */,
+				1DCAD4131D3E300F0020CD4C /* DLSlideView.m in Sources */,
+				1DCAD4121D3E300F0020CD4C /* DLCustomSlideView.m in Sources */,
 				1DF71D731D2CEE02002097DC /* AppDelegate.m in Sources */,
 				1DF71D701D2CEE02002097DC /* main.m in Sources */,
 			);
@@ -498,6 +580,7 @@
 				1DF71D9A1D2CEE02002097DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1DF71D9B1D2CEE02002097DC /* Build configuration list for PBXNativeTarget "测试标签栏选择Tests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +589,7 @@
 				1DF71D9D1D2CEE02002097DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1DF71D9E1D2CEE02002097DC /* Build configuration list for PBXNativeTarget "测试标签栏选择UITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +598,7 @@
 				1DF71DA01D2CEE02002097DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
